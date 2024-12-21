@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OM Coin Miner - Background</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+    header {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.5rem;
+    }
+    .container {
+      margin: 20px auto;
+      max-width: 800px;
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+    }
+    button {
+      background: #6c63ff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #5548cc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    OM Coin Miner
+  </header>
+  <div class="container">
+    <h1>Welcome to OM Coin Miner</h1>
+    <p>Click the button to proceed and view the coin face</p>
+    <button onclick="redirectToCoin()">View Coin</button>
+  </div>
+
+  <script>
+    function redirectToCoin() {
+      window.location.href = "coin.html"; // Calls the second file
+    }
+  </script>
+</body>
+</html>
